@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Pictures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f6fc;
+            color: #333;
+        }
+        header {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        h1 {
+            margin-top: 0;
+            font-size: 48px;
+            text-transform: capitalize; /* Capitalize the first letter of each word */
+            letter-spacing: 2px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .image {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .image img {
+            width: 300px; /* Set a fixed width for all images */
+            height: 200px; /* Set a fixed height for all images */
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .navigation {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .navigation a {
+            color: #4a90e2;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cat Pictures</h1>
+</header>
+
+<div class="container">
+    <div class="image">
+        <img src="picture1.jpg" alt="Cat 1">
+    </div>
+    <div class="image">
+        <img src="picture2.jpg" alt="Cat 2">
+    </div>
+    <div class="image">
+        <img src="picture3.png" alt="Cat 3">
+    </div>
+    <!-- Add more images here -->
+    <div class="navigation">
+        <a href="index.html">Go Back to Fun Facts</a>
+    </div>
+</div>
+
+</body>
+</html>
+
